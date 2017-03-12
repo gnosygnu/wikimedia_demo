@@ -1,1 +1,4 @@
-# wikimedia_demo
+# Wikimedia Demo
+Javascript code for https://www.mediawiki.org/wiki/User:Kaldari/Task_2
+
+Create a web page that takes the name of a Wikipedia category as input (either through a query string parameter or a form input) and outputs a sorted list of articles with scores. The scores should reflect how readable the first paragraph of each article is. The list should be sorted from least readable to most readable. Readability can be assessed by any method of your choosing. For example, you could consider factors such as length, number of parenthetical phrases, number of commas, average word size, etc. or you could use a 3rd party readability test API or library. Don't worry about handling subcategories or pagination for large categories (feel free to only evaluate the first 50 articles in the category). Don't worry about supporting non-English Wikipedias.
